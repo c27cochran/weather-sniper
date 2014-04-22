@@ -1,0 +1,544 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+body {
+  background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+  width: 375px;
+  border-radius: 30px;
+  background: #1B6583;
+  padding: 10px;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+a {
+    color: #d6ee18;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #b7cb1b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #c6d550;
+}
+
+.navbar-inverse {
+  background: #1B6583;
+}
+
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.btn-theme  {
+  color: #fff;
+  background-color: #1B6583;
+  border-color: #ffffb2;
+}
+.btn-theme:hover  {
+  color: #fff;
+  background-color: #444;
+  border-color: #444;
+}
+form.signup {
+	margin-top: 30px;
+}
+form.signup button.btn {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+form.signup input.form-control:focus {
+	border-color: #fd680e;
+}
+
+
+/* Nav */
+
+a.navbar-brand {
+	color: #fff !important;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+a.navbar-brand:hover {
+    color: #ddd !important;
+}
+
+/* Header */
+
+#header {	
+	background-color: #444;
+	background: url(../img/main-bg.jpg) no-repeat center top;
+	margin-top: -20px;
+	padding-top: 80px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#header h1 {
+	margin-top: 60px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 900;
+	letter-spacing: -1px;
+}
+
+h2.subtitle {
+	color: #fff;
+	font-size: 20px;
+  background: none;
+  padding: 0px;
+}
+
+#city-background {
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  position: relative;
+  top: 30px;
+}
+
+select[multiple], select[size] {
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.padding {
+  padding: 20px 0px;
+}
+
+.row-fluid {
+  position: relative;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#button {
+  margin: 0 10px 10px 5px;
+}
+
+#weather-container {
+  background: #fff;
+  margin-top: 15px;
+  padding: 20px;
+  width: 375px;
+  border-radius: 30px;
+}
+
+#weather-container h3 {
+  width: 100%;
+  background: #4fb2a8;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.weather {
+  margin-top: 30px;
+}
+
+
+ /*weather icons based on yahoo codes */
+.weather-0 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-1 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -86px -91px;
+}
+
+.weather-2 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -329px;
+}
+
+.weather-3 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-4 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-5 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-6 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-7 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-8 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-9 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px -17px;
+}
+
+.weather-10 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-11 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px -17px;
+}
+
+.weather-12 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px -17px;
+}
+
+.weather-13 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-14 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-15 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -298px 84px;
+}
+
+.weather-16 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-17 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -249px;
+}
+
+.weather-18 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -233px -252px;
+}
+
+.weather-19 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -11px;
+}
+
+.weather-20 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -11px;
+}
+
+.weather-21 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -11px;
+}
+
+.weather-22 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -11px;
+}
+
+.weather-23 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px 160px;
+}
+
+.weather-24 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px 160px;
+}
+
+.weather-25 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -170px;
+}
+
+.weather-26 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-27 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-28 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-29 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-30 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-31 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -11px;
+}
+
+.weather-32 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -11px;
+}
+
+.weather-33 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -11px;
+}
+
+.weather-34 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -11px;
+}
+
+.weather-35 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -17px -249px;
+}
+
+.weather-36 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -11px;
+}
+
+.weather-37 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-38 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-39 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-40 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -441px -17px;
+}
+
+.weather-41 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-42 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-43 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-44 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -369px -423px;
+}
+
+.weather-45 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-46 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -297px -93px;
+}
+
+.weather-47 {
+  width: 45px;
+  height: 40px;
+  background: url(../img/weather-icons.jpg) -157px -168px;
+}
+
+.weather-3200 {
+  width: 20px;
+  height: 20px;
+  background: url(../img/not-available.png);
+}
+
+.weather-text {
+  position: absolute;
+  left: 80px;
+}
+
+
+#map-background {
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  width: 375px; 
+  height: 411px;
+}
+
+#map {
+  width: 350px; 
+  height: 300px;
+}
+
+svg {
+  padding: 10px;
+  margin-top: 15px;
+}
+
+/* footer */
+#footer {
+	background: #1B6583;
+	padding: 20px 0 5px;
+}
+
+p.copyright {
+	color: #fff;
+	text-align: center;
+}	
